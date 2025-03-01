@@ -57,12 +57,6 @@
                     onclick="edit_ticket_message(<?= e($reply['id']); ?>,'reply'); return false;">
                     <i class="fa-regular fa-pen-to-square"></i>
                 </a>
-                <?php if (can_staff_delete_ticket_reply()) { ?>
-                <a href="<?= admin_url('tickets/delete_ticket_reply/' . $ticket->ticketid . '/' . $reply['id']); ?>"
-                    class="_delete tw-text-neutral-500 hover:tw-text-neutral-700 focus:tw-text-neutral-600">
-                    <i class="fa-regular fa-trash-can"></i>
-                </a>
-                <?php } ?>
             </div>
         </div>
         <div data-reply-id="<?= e($reply['id']); ?>"

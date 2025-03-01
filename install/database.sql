@@ -1978,7 +1978,6 @@ INSERT INTO `tbloptions` (`id`, `name`, `value`, `autoload`) VALUES
 (273, 'save_last_order_for_tables', '0', 1),
 (274, 'company_logo_dark', '', 1),
 (275, 'customers_register_require_confirmation', '0', 1),
-(276, 'allow_non_admin_staff_to_delete_ticket_attachments', '0', 1),
 (277, 'receive_notification_on_new_ticket_replies', '1', 0),
 (278, 'google_client_id', '', 1),
 (279, 'enable_google_picker', '1', 1),
